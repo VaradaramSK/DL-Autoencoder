@@ -94,8 +94,8 @@ criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
 # Print model summary
-print("Name:Ragul K")
-print("Register Number:212224040258")
+print("Name:Varadaram SK")
+print("Register Number:212223040232")
 summary(model, input_size=(1, 28, 28))
 
 # Train the autoencoder
@@ -138,8 +138,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name:Ragul K")
-    print("Register Number:212224040258")
+    print("Name:Varadaram SK")
+    print("Register Number:212223040232")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
@@ -172,12 +172,16 @@ visualize_denoising(model, test_loader)
 ### OUTPUT
 
 ### Model Summary
-Include your model summary
+<img width="841" height="572" alt="image" src="https://github.com/user-attachments/assets/e194556c-4240-48ba-b332-3f625c0b526f" />
+
 
 ### Training loss
+<img width="397" height="125" alt="image" src="https://github.com/user-attachments/assets/f5986914-9e67-4de0-81fc-e35347af61bd" />
+
 
 ## Original vs Noisy Vs Reconstructed Image
-Include a few sample images here.
+<img width="1837" height="667" alt="image" src="https://github.com/user-attachments/assets/f861e585-4bc4-47f1-8018-c95552587818" />
+
 
 ## RESULT
-Include your result here
+Therefore, To develop a convolutional autoencoder for image denoising application executed successfully.
